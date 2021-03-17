@@ -47,3 +47,181 @@ header nav ul li a:hover{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.posters {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.poster {
+    width: 200px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.poster-img {
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+}
+
+.poster-body {
+    padding: 10px 20px;
+}
+
+.poster-body h2 {
+    margin: 10px 0px;
+}
