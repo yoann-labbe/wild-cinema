@@ -4,35 +4,41 @@ const films = {
     prochainement: [
         {
             name: "film 1",
-            picture: "assets/monopoly.jpg"
+            picture: "assets/affiche1.jpg",
+            description: "blablabla"
         },
         {
             name: "film 2",
-            picture: "assets/ET.png"
+            picture: "assets/affiche2.jpg",
+            description: "blablabla"
         },
         {
             name: "film 3",
-            picture: "assets/titanic.jpg"
+            picture: "assets/affiche3.jpg",
+            description: "blablabla"
         }
     ],
     alAffiche: [
         {
             name: "film 4",
-            picture: "lalala1.url"
+            picture: "assets/ET.png",
+            description: "blablabla"
         },
         {
             name: "film 5",
-            picture: "lalal12"
+            picture: "assets/monopoly.jpg",
+            description: "blablabla"
         },
         {
             name: "film 6",
-            picture: "blabla1"
-        }
+            picture: "assets/titanic.jpg",
+            description: "blablabla"
+        },
     ]
 }
 
 
-function createPoster(parent, title, imgUrl) {
+function createPoster(parent, title, imgUrl, description) {
     const poster = document.createElement("div");
     poster.classList.add("poster");
     parent.appendChild(poster);
@@ -42,7 +48,7 @@ function createPoster(parent, title, imgUrl) {
     poster.appendChild(posterHeader);
 
     const posterImg = document.createElement("img");
-    posterImg.style.backgroundImage= `url(${imgUrl})`;
+    posterImg.src = `${imgUrl}`;
     posterImg.classList.add("poster-img");
     posterHeader.appendChild(posterImg);
 
@@ -54,16 +60,23 @@ function createPoster(parent, title, imgUrl) {
     posterTitle.classList.add("poster-title");
     posterTitle.innerHTML = `${title}`;
     posterBody.appendChild(posterTitle);
+
+    const posterDescription = document.createElement("p");
+    posterDescription.classList.add("poster-description");
+    posterDescription.innerHTML = `${description}`;
+    posterBody.appendChild(posterDescription);
 }
 
 for (let i =0; i < films.prochainement.length; i++){
     const name = films.prochainement[i]["name"];
     const picture = films.prochainement[i]["picture"];
-    createPoster(postersProchainement, name, picture);
+    const description = films.prochainement[i]["description"];
+    createPoster(postersProchainement, name, picture, description);
 }
 
 for (let i =0; i < films.alAffiche.length; i++){
     const name = films.alAffiche[i]["name"];
     const picture = films.alAffiche[i]["picture"];
-    createPoster(postersalAffiche, name, picture);
+    const description = films.alAffiche[i]["description"];
+    createPoster(postersalAffiche, name, picture, description);
 }
