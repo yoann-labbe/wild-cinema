@@ -42,8 +42,15 @@ header nav ul li a:hover{
     text-decoration: darkgreen;
 }
 
+footer ul {
+    display: flex;
+    justify-content: space-around;
+}
 
-
+footer ul li {
+list-style: none;
+color: blue;
+}
 
 
 
