@@ -41,7 +41,7 @@ function createPoster(parent, title, imgUrl) {
     posterHeader.classList.add("poster-header");
     poster.appendChild(posterHeader);
 
-    const posterImg = document.createElement("div");
+    const posterImg = document.createElement("img");
     posterImg.style.backgroundImage= `url(${imgUrl})`;
     posterImg.classList.add("poster-img");
     posterHeader.appendChild(posterImg);
