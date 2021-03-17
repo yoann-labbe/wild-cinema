@@ -1,0 +1,56 @@
+body {
+    font-family: arial;
+    margin: 0;
+}
+
+*{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header #logo img{
+    height: 100px;
+}
+
+header nav{
+    height: 100px;
+    width: 100%;   
+
+}
+
+header nav ul{
+    height: inherit;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav ul li{
+    list-style: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color:darkgreen;
+}
+
+header nav ul li a:hover{
+    text-decoration: darkgreen;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer ul li {
+list-style: none;
+color: blue;
+}
+
+
+
