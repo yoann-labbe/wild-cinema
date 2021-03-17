@@ -42,8 +42,37 @@ header nav ul li a:hover{
     text-decoration: darkgreen;
 }
 
+footer ul {
+    display: flex;
+    justify-content: space-around;
+}
 
+footer ul li {
+list-style: none;
+color: blue;
+}
 
+/*PROCHAINEMENT PAGE ACCUEIL--------------------------------------*/
+h1{
+    width: 100%;
+    margin:60px auto;
+    text-align: center;
+    font-size: 60px;
+}
+
+#next ul{
+    margin-bottom: 60px;
+    display:flex;
+    justify-content: space-around;
+}
+
+#next ul li{
+    list-style:none;
+}
+
+#next ul li img{
+    width:400px;
+}
 
 
 

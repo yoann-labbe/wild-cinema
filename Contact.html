@@ -1,31 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NOUS CONTACTER</title>
-</head>
-<h1>NOUS CONTACTER</h1>
 
-<h2>Adresse</h2>
-<p>Wild Cinéma<br> 
- 9 Allée Serr <br>
- 33100 BORDEAUX<br>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+	<title>Wild Cinéma accueil</title>
 
- Tel : 06 09 02 07 09<br>
- Accès tramway ligne A, arrêt Stalingrad<br>
- Bus lignes 10 / 16 / 27 / 28 / 45 /80 / 91 / 92 arrêt Stalingrad<br>
- Batcub Pont de Pierre<br>
- Stations Vcub à proximité<br>
- Stations BlueCub à proximité<br>
-</p>
+  </head>
+  <body>
+  	<header>
+  		<div id="logo">
+			  <img src="assets/logo.jpg" />
+  		</div>
+  		<nav>
+  			<ul>
+  				<li><a href="index.html">Accueil</a></li>
+  				<li><a href="affiche.html">Films à l'affiche</a></li>
+  				<li><a href="reservation.html">Réservez</a></li>
+  				<li><a href="Contact.html">Contact</a></li>
+  			</ul>
+  		</nav>
+  	</header>
 
-<p>Map image ou nous trouver</p>
+    <h1>NOUS CONTACTER</h1>
 
-<h2>Formulaire</h2>
-
-<body>
+    <h2>Adresse</h2>
+    <div>Wild Cinéma<br> 
+     9 Allée Serr <br>
+     33100 BORDEAUX<br>
     
+     Tel : 06 09 02 07 09<br>
+     Accès tramway ligne A, arrêt Stalingrad<br>
+     Bus lignes 10 / 16 / 27 / 28 / 45 /80 / 91 / 92 arrêt Stalingrad<br>
+     Batcub Pont de Pierre<br>
+     Stations Vcub à proximité<br>
+     Stations BlueCub à proximité<br>
+    </div>
+    
+    <p>Map image ou nous trouver</p>
+    
+    <h2>Formulaire</h2>  
+    <form>
+        <label id="name">Nom</label>
+        <input type="nom" placeholder="Nom">
+        <label id="phone">Téléphone</label>
+        <input type="telephone" placeholder="Numéro de téléphone">
+        <label id="email">Mail</label>
+        <input type="mail" placeholder="prenom.nom@xxx.com">
+        <label id="message">Message</label>
+        <textarea placeholder="Ecrivez votre message ici"></textarea>
+        <input type="submit" value="Envoyer">
+    </form>
+    <footer> 
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="#">Evènements</a></li>
+            <li><a href="affiche.html">Films à l'affiche</a></li>
+            <li><a href="reservation.html">Réservez</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+  </footer>
 </body>
 </html>
