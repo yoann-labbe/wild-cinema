@@ -1,7 +1,7 @@
-const postersProchainement = document.querySelector("#posters-prochainement");
-const postersalAffiche = document.querySelector("#posters-alaffiche");
+const postersalAffiche = document.querySelector("#posters-prochainement");
+const postersProchainement = document.querySelector("#posters-alaffiche");
 const films = {
-    prochainement: [
+    alAffiche: [
         {
             name: "film 1",
             picture: "assets/affiche1.jpg",
@@ -18,7 +18,7 @@ const films = {
             description: "blablabla"
         }
     ],
-    alAffiche: [
+    prochainement: [
         {
             name: "film 4",
             picture: "assets/ET.png",
@@ -67,16 +67,16 @@ function createPoster(parent, title, imgUrl, description) {
     posterBody.appendChild(posterDescription);
 }
 
-for (let i =0; i < films.prochainement.length; i++){
-    const name = films.prochainement[i]["name"];
-    const picture = films.prochainement[i]["picture"];
-    const description = films.prochainement[i]["description"];
-    createPoster(postersProchainement, name, picture, description);
-}
-
 for (let i =0; i < films.alAffiche.length; i++){
     const name = films.alAffiche[i]["name"];
     const picture = films.alAffiche[i]["picture"];
     const description = films.alAffiche[i]["description"];
     createPoster(postersalAffiche, name, picture, description);
+}
+
+for (let i =0; i < films.prochainement.length; i++){
+    const name = films.prochainement[i]["name"];
+    const picture = films.prochainement[i]["picture"];
+    const description = films.prochainement[i]["description"];
+    createPoster(postersProchainement, name, picture, description);
 }
