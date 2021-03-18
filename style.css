@@ -3,13 +3,12 @@ body {
   margin: 0;
 }
 
-
 #my-page {
-background-image: url(assets/salle.png);
+  background-image: url(assets/salle.png);
 }
 .fond-blanc {
-    background-color: white;
-    border-radius: 10px;
+  background-color: white;
+  border-radius: 10px;
 }
 * {
   margin: 0;
@@ -18,10 +17,15 @@ background-image: url(assets/salle.png);
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  height: 120px;
+  background-color: rgb(167, 110, 93);
+  border-radius: 10px;
 }
 
 header #logo img {
   height: 100px;
+  border-radius: 5px;
 }
 
 header nav {
@@ -46,44 +50,44 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  text-decoration: darkgreen;
+  color: rgb(109, 28, 8);
 }
 
 h1 h2 {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 div {
-    padding-left: 10px;
-    margin: 15px;
+  padding-left: 10px;
+  margin: 15px;
 }
 
 #map {
-display: flex;
-justify-content: ;
-width: 150px; 
-height: 150px;  
+  display: flex;
+  justify-content: ;
+  width: 150px;
+  height: 150px;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    width: 30em;
-    margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  width: 30em;
+  margin: 20px auto;
 }
 
 form input {
-    margin: 10px;
+  margin: 10px;
 }
 form label {
-    padding-left: 10px;
+  padding-left: 10px;
 }
 form textarea {
-    padding-left: 10px;
-    margin-left: 10px;
+  padding-left: 10px;
+  margin-left: 10px;
 }
 .envoyer {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 footer ul {
   display: flex;
@@ -165,4 +169,3 @@ main div h3 {
 .poster-description {
   text-align: left;
 }
-
