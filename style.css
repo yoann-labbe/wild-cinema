@@ -3,6 +3,14 @@ body {
   margin: 0;
 }
 
+
+#my-page {
+background-image: url(assets/salle.png);
+}
+.fond-blanc {
+    background-color: white;
+    border-radius: 10px;
+}
 * {
   margin: 0;
 }
@@ -41,6 +49,42 @@ header nav ul li a:hover {
   text-decoration: darkgreen;
 }
 
+h1 h2 {
+    margin-left: 10px;
+}
+
+div {
+    padding-left: 10px;
+    margin: 15px;
+}
+
+#map {
+display: flex;
+justify-content: ;
+width: 150px; 
+height: 150px;  
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 30em;
+    margin: 20px auto;
+}
+
+form input {
+    margin: 10px;
+}
+form label {
+    padding-left: 10px;
+}
+form textarea {
+    padding-left: 10px;
+    margin-left: 10px;
+}
+.envoyer {
+    margin-bottom: 30px;
+}
 footer ul {
   display: flex;
   justify-content: space-around;
@@ -121,3 +165,4 @@ main div h3 {
 .poster-description {
   text-align: left;
 }
+
