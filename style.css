@@ -10,7 +10,7 @@ body {
 }
 
 .fond-blanc {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.7);
   border-radius: 10px;
   margin: 20px 80px;
 }
@@ -128,22 +128,15 @@ h1 {
 
 /*PAGE A L AFFICHE--------------------------------------*/
 
-main div h3 {
-  display: flex;
-}
-
 #posters-prochainement {
   margin: 50px 0;
-}
-#posters-prochainement h3 {
-  font-size: 35px;
 }
 
 #posters-alaffiche {
   margin-bottom: 60px;
 }
 
-#posters-alaffiche h3 {
+.posters-container h3 {
   font-size: 35px;
 }
 
