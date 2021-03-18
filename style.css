@@ -3,14 +3,18 @@ body {
   margin: 0;
 }
 
-
 #my-page {
-background-image: url(assets/salle.png);
+  background-image: url(assets/salle.png);
+  background-size: cover;
+  background-position: center center;
 }
+
 .fond-blanc {
-    background-color: white;
-    border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  margin: 20px 80px;
 }
+
 * {
   margin: 0;
 }
@@ -50,40 +54,40 @@ header nav ul li a:hover {
 }
 
 h1 h2 {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 div {
-    padding-left: 10px;
-    margin: 15px;
+  padding-left: 10px;
+  margin: 15px;
 }
 
 #map {
-display: flex;
-justify-content: ;
-width: 150px; 
-height: 150px;  
+  display: flex;
+  justify-content: "";
+  width: 150px;
+  height: 150px;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    width: 30em;
-    margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  width: 30em;
+  margin: 20px auto;
 }
 
 form input {
-    margin: 10px;
+  margin: 10px;
 }
 form label {
-    padding-left: 10px;
+  padding-left: 10px;
 }
 form textarea {
-    padding-left: 10px;
-    margin-left: 10px;
+  padding-left: 10px;
+  margin-left: 10px;
 }
 .envoyer {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 footer ul {
   display: flex;
@@ -126,9 +130,16 @@ main div h3 {
 #posters-prochainement {
   margin: 50px 0;
 }
+#posters-prochainement h3 {
+  font-size: 35px;
+}
 
 #posters-alaffiche {
   margin-bottom: 60px;
+}
+
+#posters-alaffiche h3 {
+  font-size: 35px;
 }
 
 .posters {
@@ -165,4 +176,3 @@ main div h3 {
 .poster-description {
   text-align: left;
 }
-
