@@ -171,6 +171,10 @@ footer ul li {
   width: 100%;
 }
 
+a:hover .poster-img {
+  opacity: 0.7;
+}
+
 .poster-body {
   padding: 10px 0px;
 }
