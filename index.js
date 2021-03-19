@@ -30,7 +30,7 @@ const films = {
             description: "«Quentin B, instructeur de la puissante compagnie nommée WildCodeSchool, parvient à inculquer les bases de JavaScript à de nouveaux Wilders et, étonné de leurs prouesses, décide d'ouvrir un parc d'attraction sur la place des Quinconces.»"
         },
         {
-            name: "UN ELEPHANT SUR LES BRAS",
+            name: "UN ELEPHANT PHP SUR LES BRAS",
             picture: "assets/lefilm1.png",
             description: "«Charmés par le discours de leur instructeur, ce groupe de Wilder ont emprunté la voie du PHP. C'était sans réaliser dans quel aventure ils allaients embarquer. Une comédie touchante à découvrir en famille !»"
         },
