@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap" rel="stylesheet"
+        type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&family=Rubik:ital,wght@1,500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <p class="p1">
+        Réservez votre séance depuis chez vous
+    </p>
+    <form class="input">
+        <label class="choixfilm">Etape 1</label>
+        </br>
+        <select style="font-size: 17px" id="film" class="movie" onchange="chooseMovie()">
+            <option value="00" class="f1">-Veuillez choisir un film-</option>
+            <option value="./film2.png">Javascript park</option>
+            <option value="./film1.png">Un élephant sur les bras</option>
+            <option value="./film4.png">Back to the main branch</option>
+
+        </select>
+    </form>
+
+    <div id="affiche" class="result"></div>
+
+
+    <label class="affiche">Etape 2</label>
+    </br>
+    <input type="button" class="button" value="reserver"
+        onclick="alert('votre réservation à bien était pris en compte')"></input>
+
+
+
+
+
+    <script type="text/javascript" src="script.js"></script>
+
+
+
+</body>
+
+</html>
