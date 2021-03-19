@@ -105,7 +105,7 @@ footer ul li {
 }
 
 /*PROCHAINEMENT PAGE ACCUEIL--------------------------------------*/
-#next h1 {
+h1 {
   width: 100%;
   margin: 60px auto;
   text-align: center;
@@ -157,7 +157,7 @@ footer ul li {
 .poster-img {
   background-size: cover;
   background-position: center;
-  margin: 20px;
+  margin: auto;
   height: 100%;
   width: 100%;
 }
@@ -173,4 +173,36 @@ footer ul li {
 
 .poster-description {
   text-align: left;
+}
+
+@media screen and (max-width: 767px) {
+  .fond-blanc {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    margin: 10px 10px;
+  }
+}
+
+@media screen and (min-wicth: 769px) and (max-width: 992px) {
+  .fond-blanc {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    margin: 10px 25px;
+  }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .fond-blanc {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    margin: 10px 25px;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .fond-blanc {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    margin: 10px 30px;
+  }
 }
