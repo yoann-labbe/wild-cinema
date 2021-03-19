@@ -48,43 +48,38 @@ header nav ul li a {
 header nav ul li a:hover {
   text-decoration: darkgreen;
 }
+/*Formulaire*/
 
-h1 h2 {
-    margin-left: 10px;
+.map {
+display: flex ;
+flex-direction: row-reverse;
+width: 450px; 
+height: 300px;  
+
 }
+.debut {
 
-div {
-    padding-left: 10px;
-    margin: 15px;
-}
-
-#map {
-display: flex;
-justify-content: ;
-width: 150px; 
-height: 150px;  
 }
 
 form {
     display: flex;
     flex-direction: column;
     width: 30em;
-    margin: 20px auto;
+    margin: 30px auto;
 }
 
 form input {
     margin: 10px;
 }
-form label {
-    padding-left: 10px;
-}
+
 form textarea {
-    padding-left: 10px;
-    margin-left: 10px;
+    margin:10px;
 }
+
 .envoyer {
-    margin-bottom: 30px;
+
 }
+/*Formulaire fin*/
 footer ul {
   display: flex;
   justify-content: space-around;
