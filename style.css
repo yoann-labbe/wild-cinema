@@ -184,6 +184,52 @@ footer ul li {
   text-align: left;
 }
 
+/*fiche reservation*/
+.p1 {
+  text-align: center;
+  margin-top: 260px;
+}
+
+.input {
+  flex-direction: column;
+  margin-left: 351px;
+  margin-top: 60px;
+}
+
+.movie {
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+  height: 30px;
+  width: 210px;
+  margin-top: 8px;
+}
+
+.choixfilm {
+  background-color: khaki;
+  align-items: stretch;
+  font-family: "Rubik", sans-serif;
+}
+.affiche {
+  margin-left: 351px;
+  margin-top: 60px;
+  background-color: khaki;
+  align-items: stretch;
+  font-family: "Rubik", sans-serif;
+}
+.result {
+  margin-left: 500px;
+  margin-top: 8px;
+}
+.button {
+  border-radius: 8px;
+  background-color: white;
+  margin-left: 351px;
+  height: 80px;
+  width: 80px;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
 @media screen and (max-width: 767px) {
   .fond-blanc {
     background-color: rgba(255, 255, 255, 0.7);
