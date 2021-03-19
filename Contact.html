@@ -8,25 +8,25 @@
 	<title>Wild Cinéma accueil</title>
 
   </head>
-  <body>
+  <body id="my-page">
   	<header>
   		<div id="logo">
-			  <img src="assets/logo.jpg" />
+			  <a href="index.html"><img src="assets/logo.jpg" />
   		</div>
   		<nav>
   			<ul>
   				<li><a href="index.html">Accueil</a></li>
   				<li><a href="affiche.html">Films à l'affiche</a></li>
-  				<li><a href="reservation.html">Réservez</a></li>
+  				<li><a href="reserve.html">Réservez</a></li>
   				<li><a href="Contact.html">Contact</a></li>
   			</ul>
   		</nav>
   	</header>
-
+    <div class="fond-blanc">
     <h1>NOUS CONTACTER</h1>
 
     <h2>Adresse</h2>
-    <div>Wild Cinéma<br> 
+    <div class="info">Wild Cinéma<br> 
      9 Allée Serr <br>
      33100 BORDEAUX<br>
     
@@ -38,7 +38,9 @@
      Stations BlueCub à proximité<br>
     </div>
     
-    <p>Map image ou nous trouver</p>
+    <div id="map">
+      <img src="assets/plan.png" />
+    </div>
     
     <h2>Formulaire</h2>  
     <form>
@@ -49,15 +51,16 @@
         <label id="email">Mail</label>
         <input type="mail" placeholder="prenom.nom@xxx.com">
         <label id="message">Message</label>
-        <textarea placeholder="Ecrivez votre message ici"></textarea>
-        <input type="submit" value="Envoyer">
+        <textarea type="mess" placeholder="Ecrivez votre message ici"></textarea>
+        <input type="submit" value="Envoyer" class="envoyer">
     </form>
+    </div>
     <footer> 
         <ul>
             <li><a href="index.html">Accueil</a></li>
             <li><a href="#">Evènements</a></li>
             <li><a href="affiche.html">Films à l'affiche</a></li>
-            <li><a href="reservation.html">Réservez</a></li>
+            <li><a href="reserve.html">Réservez</a></li>
             <li><a href="Contact.html">Contact</a></li>
         </ul>
   </footer>
