@@ -7,46 +7,95 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap" rel="stylesheet"
-        type="text/css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&family=Rubik:ital,wght@1,500&display=swap"
-        rel="stylesheet">
+   
 </head>
 
-<body>
+<body id="my-page">
+   
+    <div id="popup" >
+    <img src="Lefilm7.png" class="overlay">
+<span id="btnclose">CLOSE</span>
+</div>
 
-    <p class="p1">
-        Réservez votre séance depuis chez vous
-    </p>
-    <form class="input">
-        <label class="choixfilm">Etape 1</label>
+	
+    <header>
+        <div id="logo">
+            <a href="index.html"><img src="assets/logo.jpg" /></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="affiche.html">Films à l'affiche</a></li>
+                <li><a href="reserve.html">Réservez</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="fond-blanc">
+    </br>
+</br>
+        <h1 class="tblk1">Réservez votre séance depuis chez vous</h1>
+        
+        <div id="blk1">
+            
+        
+      <a class="pop" ><img src="Lefilm7.png" class="ban"> </a>
+        
+  
+      
+        
+            
+     <form class="blk2">
+       
+    
+        
+        <div class="input">
+            <label class="choixfilm">Etape 1</label>
+            </br>
+            <select style="font-size: 17px" id="film" class="movie" onchange="chooseMovie()">
+                <option value="00" class="f1">--Veuillez choisir un film--</option>
+                <option value="assets/film2.png">Javascript park</option>
+                <option value="assets/film1.png">Un élephant sur les bras</option>
+                <option value="assets/film5.png">Projet 3</option>
+
+            </select>
+        </div>
+
+        <div id="affiche" class="result"></div>
+
+
+        <label class="affiche">Etape 2</label>
         </br>
-        <select style="font-size: 17px" id="film" class="movie" onchange="chooseMovie()">
-            <option value="00" class="f1">-Veuillez choisir un film-</option>
-            <option value="assets/film2.png">Javascript park</option>
-            <option value="assets/film1.png">Un élephant sur les bras</option>
-            <option value="assets/film5.png">Projet 3</option>
+        <input type="mail" placeholder="prenom.nom@xxx.com" class="inpmail"></input>
+        
 
-        </select>
+            <label class="affiche">Etape 3</label>
+        </br>
+        <button type="submit" class="button" value="reserver"
+        onclick="alert('votre réservation à bien était pris en compte')">reserver</button>
+
+    
     </form>
 
-    <div id="affiche" class="result"></div>
 
-
-    <label class="affiche">Etape 2</label>
-    </br>
-    <input type="button" class="button" value="reserver"
-        onclick="alert('votre réservation à bien était pris en compte')"></input>
-
-
-
-
-
-    <script type="text/javascript" src="script.js"></script>
-
+          <script type="text/javascript" src="script.js"></script>
+          <img src="Lefilm7.png" class="ban">
+        </div>
+    </div>
+        
+      
+        <footer>
+            <ul>
+                <li>Accueil</li>
+                <li>Evènements</li>
+                <li>Prochainement</li>
+                <li>Réservation</li>
+                <li>Contact</li>
+            </ul>
+        </footer>
+        
+        
+        </div>
 
 
 </body>
