@@ -1,5 +1,5 @@
 body {
-  font-family: arial;
+  font-family: 'Roboto Mono', monospace;
   margin: 0;
 }
 
@@ -7,12 +7,14 @@ body {
   background-image: url(assets/salle.png);
   background-size: cover;
   background-position: center center;
+  
 }
 
 .fond-blanc {
   background-color: rgba(255, 255, 255, 0.5);
+  min-block-size: 1190px;
   border-radius: 10px;
-  margin: 20px 80px;
+margin: 20px 80px;
 }
 
 * {
@@ -27,6 +29,8 @@ header {
   background-color: rgb(167, 110, 93);
   border-radius: 10px;
   border: 5px solid rgb(109, 28, 8);
+  margin: 20px 80px;
+  
 }
 
 header #logo img {
@@ -38,6 +42,8 @@ header #logo img {
 header nav {
   height: 100px;
   width: 100%;
+
+
 }
 
 header nav ul {
@@ -49,7 +55,9 @@ header nav ul {
 
 header nav ul li {
   list-style: none;
+  
 }
+
 
 header nav ul li a {
   text-decoration: none;
@@ -57,7 +65,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  color: rgb(109, 28, 8);
+  color: rgb(255, 255, 255);
 }
 /*Formulaire*/
 @media screen and (min-width: 350px){
@@ -108,18 +116,23 @@ form textarea {
 }
 /*Formulaire fin*/
 
+
+
 footer ul {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 15px;
+ 
 }
 
-footer ul li {
+footer ul li a {
   list-style: none;
   color: white;
 }
 /*Formulaire fin */
 
 /*PROCHAINEMENT PAGE ACCUEIL--------------------------------------*/
+
 #next {
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 10px;
@@ -148,28 +161,21 @@ footer ul li {
 }
 
 /*PAGE A L AFFICHE--------------------------------------*/
-
-main div h3 {
-  display: flex;
-}
-
-#posters-prochainement {
-  margin: 50px 0;
-}
-#posters-prochainement h3 {
-  font-size: 35px;
-}
-
 #posters-alaffiche {
   margin-bottom: 60px;
 }
 
-#posters-alaffiche h3 {
+#posters-prochainement {
+  margin: 20px 0;
+}
+
+.posters-container h3 {
   font-size: 35px;
+  text-align: center;
+  padding-top: 70px;
 }
 
 .posters {
-  margin-top: 10px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -177,7 +183,7 @@ main div h3 {
 
 .poster {
   width: 400px;
-  margin: 20px;
+  margin: 20px 20px 60px 20px;
   display: flex;
   flex-direction: column;
 }
@@ -185,9 +191,13 @@ main div h3 {
 .poster-img {
   background-size: cover;
   background-position: center;
-  margin: 20px;
+  margin: auto;
   height: 100%;
   width: 100%;
+}
+
+a:hover .poster-img {
+  opacity: 0.7;
 }
 
 .poster-body {
@@ -201,62 +211,109 @@ main div h3 {
 
 .poster-description {
   text-align: left;
+  font-size: 20px;
 }
 
 /*fiche reservation*/
-.p1{
-  text-align: center;
-  margin-top: 260px;
+
+.ban{
+  height: 500px;
+  width: 240px;
+  margin-top: 160px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
-
-
-
-
+ #blk1{
+   margin: 0;
+   display: flex;
+   flex-direction: row;
+justify-content: center;
+ }
+.blk2{
+  display: flex;
+align-items: center;
+margin-top: 110px;
+}
 .input{
-
- flex-direction: column; 
-  margin-left: 351px;
-  margin-top: 60px;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
-
-
-.movie{
-border-radius: 8px;
-background-color: rgb(255, 255, 255);
-height: 30px;
-width: 210px;
-margin-top: 8px;
-}
-
-
 .choixfilm{
-  background-color: khaki;
-  align-items:stretch;
-  font-family: 'Rubik', sans-serif;
-  
+  background-color: rgb(255, 240, 103);
+  font-size: 30px;
+  margin-top: 40px;
 }
 .affiche{
-  margin-left: 351px;
-  margin-top: 60px;
-  background-color: khaki;
-  align-items:stretch;
-  font-family: 'Rubik', sans-serif;
-
+  background-color: rgb(255, 240, 103);
+  font-size: 30px;
+  margin-top: 15px;
+  margin-bottom: 0;
 }
-.result{
-  margin-left: 500px;
- margin-top: 8px;
-
-}
-.button{
+.movie{
   border-radius: 8px;
-  background-color: white;
-  margin-left: 351px;
+ background-color: rgb(255, 255, 255);
+ height: 38px;
+ width: 230px;
+ margin-bottom: 15px;
+}
+ .button{
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
   height: 80px;
 width: 80px;
-margin-top: 10px;
-font-size: 16px;
-}
+margin-top: 15px;
+cursor: pointer;
+ }
+ .tblk1{
+display: flex;
+justify-content: center;
+font-size: 29px;
+margin-top: 80px;
+ }
+ .inpmail{
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+  height: 38px;
+  width: 230px;
+  margin-top: 15px;
+ }
+ .overlay{
+position: fixed;
+width: 430px;
+height: 730px;
+margin-left: 165px;
+margin-right: 165px;
 
+ 
+  }
+ #popup{
+   position: fixed;
+   background-color: rgb(255, 255, 255);
+ width: 760px;
+ height: 750px;
+margin-left:340px;
+margin-right: 340px;
+margin-top: 30px;
+margin-bottom: 35px;
+border: solid rgba(0, 0, 0, 0.664) 1px;
+border-radius: 4px;
+
+
+ }
+  #btnclose{
+    background-color: black;
+    float: right;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    border: solid black;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+  
+    
+
+  }
+
+
+/*essai*/
