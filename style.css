@@ -1,5 +1,5 @@
 body {
-  font-family: arial;
+  font-family: 'Roboto Mono', monospace;
   margin: 0;
 }
 
@@ -7,11 +7,12 @@ body {
   background-image: url(assets/salle.png);
   background-size: cover;
   background-position: center center;
+  
 }
 
 .fond-blanc {
   background-color: rgba(255, 255, 255, 0.5);
-  min-block-size: 1200px;
+  min-block-size: 1190px;
   border-radius: 10px;
 margin: 20px 80px;
 }
@@ -28,6 +29,8 @@ header {
   background-color: rgb(167, 110, 93);
   border-radius: 10px;
   border: 5px solid rgb(109, 28, 8);
+  margin: 20px 80px;
+  
 }
 
 header #logo img {
@@ -52,7 +55,9 @@ header nav ul {
 
 header nav ul li {
   list-style: none;
+  
 }
+
 
 header nav ul li a {
   text-decoration: none;
@@ -62,33 +67,25 @@ header nav ul li a {
 header nav ul li a:hover {
   color: rgb(255, 255, 255);
 }
+/*Formulaire*/
 
-h1 h2 {
-  margin-left: 10px;
-}
-
-.info {
-  padding-left: 10px;
-  margin: 15px;
-}
-
-#map {
-  display: flex;
-  justify-content: "";
-  width: 150px;
-  height: 150px;
+.map {
+display: flex ;
+width: 300px; 
+height: 300px;  
 }
 
 form {
-  display: flex;
-  flex-direction: column;
-  width: 30em;
-  margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    width: 30em;
+    margin: 30px auto;
 }
 
 form input {
   margin: 10px;
 }
+
 form label {
   padding-left: 10px;
 }
@@ -96,20 +93,25 @@ form textarea {
   padding-left: 10px;
   margin-left: 10px;
 }
-.envoyer {
-  margin-bottom: 30px;
-}
+/*Formulaire fin*/
+
+
+
 footer ul {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 15px;
+ 
 }
 
-footer ul li {
+footer ul li a {
   list-style: none;
   color: white;
 }
+/*Formulaire fin */
 
 /*PROCHAINEMENT PAGE ACCUEIL--------------------------------------*/
+
 #next {
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 10px;
@@ -138,28 +140,21 @@ footer ul li {
 }
 
 /*PAGE A L AFFICHE--------------------------------------*/
-
-main div h3 {
-  display: flex;
-}
-
-#posters-prochainement {
-  margin: 50px 0;
-}
-#posters-prochainement h3 {
-  font-size: 35px;
-}
-
 #posters-alaffiche {
   margin-bottom: 60px;
 }
 
-#posters-alaffiche h3 {
+#posters-prochainement {
+  margin: 20px 0;
+}
+
+.posters-container h3 {
   font-size: 35px;
+  text-align: center;
+  padding-top: 70px;
 }
 
 .posters {
-  margin-top: 10px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -167,7 +162,7 @@ main div h3 {
 
 .poster {
   width: 400px;
-  margin: 20px;
+  margin: 20px 20px 60px 20px;
   display: flex;
   flex-direction: column;
 }
@@ -175,9 +170,13 @@ main div h3 {
 .poster-img {
   background-size: cover;
   background-position: center;
-  margin: 20px;
+  margin: auto;
   height: 100%;
   width: 100%;
+}
+
+a:hover .poster-img {
+  opacity: 0.7;
 }
 
 .poster-body {
@@ -191,6 +190,7 @@ main div h3 {
 
 .poster-description {
   text-align: left;
+  font-size: 20px;
 }
 
 /*fiche reservation*/
@@ -282,14 +282,14 @@ border-radius: 4px;
  }
   #btnclose{
     background-color: black;
-  
     float: right;
-    cursor: pointer;
     color: rgb(255, 255, 255);
     font-size: 12px;
     border: solid black;
     text-align: center;
     font-weight: bold;
+    cursor: pointer;
+  
     
 
   }
