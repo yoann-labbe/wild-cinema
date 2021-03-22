@@ -60,12 +60,31 @@ header nav ul li a:hover {
   color: rgb(109, 28, 8);
 }
 /*Formulaire*/
+@media screen and (min-width: 350px){
+.debut {
+  display: flex;
+  justify-content: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 50px;
+}
 
 .map {
 display: flex ;
-flex-direction: row-reverse;
-width: 450px; 
-height: 300px;  
+justify-content: space-around;
+}
+
+#plan {
+    height: 300px;
+    width: 400px; 
+}
+
+.info {
+margin: 50px;
+}
+
+.milieu {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 20px;
 }
 
 form {
@@ -85,8 +104,10 @@ form label {
 form textarea {
   padding-left: 10px;
   margin-left: 10px;
-
+}
+}
 /*Formulaire fin*/
+
 footer ul {
   display: flex;
   justify-content: space-around;
@@ -96,6 +117,7 @@ footer ul li {
   list-style: none;
   color: white;
 }
+/*Formulaire fin */
 
 /*PROCHAINEMENT PAGE ACCUEIL--------------------------------------*/
 #next {
