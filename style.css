@@ -60,11 +60,31 @@ header nav ul li a:hover {
   color: rgb(109, 28, 8);
 }
 /*Formulaire*/
+@media screen and (min-width: 350px){
+.debut {
+  display: flex;
+  justify-content: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 50px;
+}
 
 .map {
 display: flex ;
-width: 300px; 
-height: 300px;  
+justify-content: space-around;
+}
+
+#plan {
+    height: 300px;
+    width: 400px; 
+}
+
+.info {
+margin: 50px;
+}
+
+.milieu {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 20px;
 }
 
 form {
@@ -84,6 +104,7 @@ form label {
 form textarea {
   padding-left: 10px;
   margin-left: 10px;
+}
 }
 /*Formulaire fin*/
 
