@@ -294,5 +294,16 @@ border-radius: 4px;
 
   }
 
+@media only screen and (max-width: 1000px){
+#popup{
+  margin: auto;
+  max-width: 100vh;
+  max-height: 100vh;
+  display: inline-block;
+}
+.overlay{
+  max-width: 100vh;
+  max-height: 100vh;
 
-/*essai*/
+}
+}
