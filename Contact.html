@@ -27,25 +27,26 @@
     <div class="fond-blanc">
     <h1 class="debut">NOUS CONTACTER</h1>
 
-    <h2>Adresse</h2>
-
-    <div class="info">Wild Cinéma<br> 
-     9 Allée Serr <br>
-     33100 BORDEAUX<br>
     
-     Tel : 06 09 02 07 09<br>
-     Accès tramway ligne A, arrêt Stalingrad<br>
-     Bus lignes 10 / 16 / 27 / 28 / 45 /80 / 91 / 92 arrêt Stalingrad<br>
-     Batcub Pont de Pierre<br>
-     Stations Vcub à proximité<br>
-     Stations BlueCub à proximité<br>
-    </div>
-    
+      <h2 class="milieu">Adresse</h2>
     <div class="map">
-      <img src="assets/plan.png" />
+      <div class="info">Wild Cinéma<br> 
+      9 Allée Serr <br>
+      33100 BORDEAUX<br>
+    
+      Tel : 06 09 02 07 09<br>
+      Accès tramway ligne A, arrêt Stalingrad<br>
+      Bus lignes 10 / 16 / 27 / 28 / 45 /80 / 91 / 92 arrêt Stalingrad<br>
+      Batcub Pont de Pierre<br>
+      Stations Vcub à proximité<br>
+      Stations BlueCub à proximité<br>
+      </div>
+    
+    
+      <img id="plan" src="assets/plan.png" />
     </div>
     
-    <h2>Formulaire</h2>  
+    <h2 class="milieu">Formulaire</h2>  
     <form>
         <label id="name">Nom</label>
         <input type="nom" placeholder="Nom">
@@ -55,7 +56,8 @@
         <input type="mail" placeholder="prenom.nom@xxx.com">
         <label id="message">Message</label>
         <textarea type="mess" placeholder="Ecrivez votre message ici"></textarea>
-        <input type="submit" value="Envoyer" id="envoyer">
+        <input type="submit" id="envoyer" value="Envoyer"  onclick="alert('votre message à bien été envoyé')"></input>
+
     </form>
     </div>
     <footer class="footer1"> 
