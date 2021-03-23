@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <title>A l'affiche</title>
   </head>
-  <body>
+  <body id="my-page">
 
     <header>
   		<div id="logo">
@@ -16,30 +17,35 @@
   			<ul>
   				<li><a href="index.html">Accueil</a></li>
   				<li><a href="affiche.html">Films à l'affiche</a></li>
-  				<li><a href="reservation.html">Réservez</a></li>
+  				<li><a href="reserve.html">Réservez</a></li>
   				<li><a href="Contact.html">Contact</a></li>
   			</ul>
   		</nav>
   	</header>
-    
-    <main>
-      <div id="posters-prochainement" class="posters">
-        <h3>Prochainement</h3>
-      </div>
-      <div id="posters-alaffiche" class="posters">
-        <h3>A l'affiche</h3>
-      </div>
-    </main>
+    <div class="fond-blanc">
+
+      <main>
+        <div class="posters-container">
+          <h3>A l'affiche</h3>
+          <div id="posters-prochainement" class="posters"></div>
+        </div>
+        <div class="posters-container">
+          <h3>Prochainement</h3>
+          <div id="posters-alaffiche" class="posters"></div>
+        </div>
+      </main>
+
+    </div> 
 
     <script src="index.js"></script>
-
+     
     <footer> 
       <ul>
-      <li>Accueil</li>
-        <li>Evènements</li>
-        <li>Prochainement</li>
-        <li>Réservation</li>
-        <li>Contact</li>
+      <li><a href="index.html">Accueil</a></li>
+        <li><a href="#">Evènements</a></li>
+        <li><a href="affiche.html">Prochainement</a></li>
+        <li><a href="reserve.html">Réservation</a></li>
+        <li><a href="Contact.html">Contact</a></li>
       </ul>
     </footer>
 
