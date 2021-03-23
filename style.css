@@ -11,34 +11,35 @@ body {
 
 .fond-blanc {
   background-color: rgba(255, 255, 255, 0.5);
-  min-block-size: 1190px;
   border-radius: 10px;
-  margin: 20px 80px;
+  margin: 50px 30px;
+  padding: 10px 0;
 }
 
 * {
   margin: 0;
+  padding: 0;
 }
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 120px;
-  background-color: rgb(167, 110, 93);
+  height: 60px;
+  background-color: rgb(255, 255, 255);
   border-radius: 10px;
-  border: 5px solid rgb(109, 28, 8);
-  margin: 20px 80px;
+  border: 5px solid rgb(255, 0, 0);
+  margin: 20px 30px;
 }
 
 header #logo img {
-  height: 100px;
+  height: 50px;
   border-radius: 5px;
   margin-left: 5px;
 }
 
 header nav {
-  height: 100px;
+  height: 100%;
   width: 100%;
 }
 
@@ -55,12 +56,13 @@ header nav ul li {
 
 header nav ul li a {
   text-decoration: none;
-  color: darkgreen;
+  color: black;
 }
 
 header nav ul li a:hover {
-  color: rgb(255, 255, 255);
+  color: rgb(255, 0, 0);
 }
+
 /*Formulaire*/
 
 .debut {
@@ -139,10 +141,6 @@ footer ul li a {
 /*PROCHAINEMENT PAGE ACCUEIL--------------------------------------*/
 
 #next {
-  background-color: rgba(255, 255, 255, 0.5);
-  border-radius: 10px;
-  margin: 50px 30px;
-  padding: 10px 0;
 }
 #next h1 {
   width: 100%;
@@ -290,18 +288,27 @@ a:hover .poster-img {
   margin-left: 165px;
   margin-right: 165px;
 }
-#popup {
+
+#popupParent {
   position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#popup {
+  position: relative;
   background-color: rgb(255, 255, 255);
   width: 760px;
   height: 750px;
-  margin-left: 340px;
-  margin-right: 340px;
-  margin-top: 30px;
-  margin-bottom: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 15px;
   border: solid rgba(0, 0, 0, 0.664) 1px;
   border-radius: 4px;
 }
+
 #btnclose {
   background-color: black;
   float: right;
