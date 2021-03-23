@@ -18,6 +18,7 @@ body {
 
 * {
   margin: 0;
+  padding: 0;
 }
 
 header {
@@ -293,10 +294,9 @@ a:hover .poster-img {
 
 #popupParent {
   position: fixed;
-  height: 100px;
+  height: 100%;
   width: 100%;
   background-color: rgba(255, 255, 255, 0);
-  margin-top: 70px;
 }
 
 #popup {
