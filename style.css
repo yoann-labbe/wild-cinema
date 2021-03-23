@@ -18,6 +18,7 @@ body {
 
 * {
   margin: 0;
+  padding: 0;
 }
 
 header {
@@ -25,20 +26,20 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 60px;
-  background-color: rgb(167, 110, 93);
+  background-color: rgb(255, 255, 255);
   border-radius: 10px;
-  border: 5px solid rgb(109, 28, 8);
-  margin: 20px ;
+  border: 5px solid rgb(255, 0, 0);
+  margin: 20px 30px;
 }
 
 header #logo img {
-  height: 100px;
+  height: 50px;
   border-radius: 5px;
   margin-left: 5px;
 }
 
 header nav {
-  height: 100px;
+  height: 100%;
   width: 100%;
 }
 
@@ -55,12 +56,12 @@ header nav ul li {
 
 header nav ul li a {
   text-decoration: none;
-  color: darkgreen;
+  color: black;
   font-family: 'Bebas Neue', cursive;
 }
 
 header nav ul li a:hover {
-  color: rgb(255, 255, 255);
+  color: rgb(255, 0, 0);
 }
 
 /*Formulaire*/
@@ -130,10 +131,6 @@ footer ul li a {
 /*PROCHAINEMENT PAGE ACCUEIL--------------------------------------*/
 
 #next {
-  background-color: rgba(255, 255, 255, 0.5);
-  border-radius: 10px;
-  margin: 50px 30px;
-  padding: 10px 0;
 }
 #next h1 {
   width: 100%;
@@ -294,10 +291,9 @@ a:hover .poster-img {
 
 #popupParent {
   position: fixed;
-  height: 100px;
+  height: 100%;
   width: 100%;
   background-color: rgba(255, 255, 255, 0);
-  margin-top: 70px;
 }
 
 #popup {
