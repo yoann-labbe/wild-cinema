@@ -4,12 +4,11 @@ function chooseMovie(){
     document.getElementById("affiche").innerHTML = "<img src='./" + leFilm + "'/>"
 }
 const Lepopup = document.getElementById("lepopup");
-const popup = document.getElementById('popup');
+const popup = document.getElementById('popupParent');
 const btnClose = document.getElementById('btnclose');
 
 btnClose.addEventListener('click',closePopup);
 
 function closePopup(){
     popup.style.display = "none";
-
 }
