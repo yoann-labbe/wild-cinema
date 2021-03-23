@@ -120,21 +120,22 @@ footer ul {
   justify-content: space-around;
   flex-direction: row;
   align-items: center;
-  height: 120px;
-  background-color: rgb(167, 110, 93);
+  height: 30px;
+  background-color: rgb(255, 255, 255);
   border-radius: 10px;
-  border: 5px solid rgb(109, 28, 8);
-  margin: 20px 80px;
+  /*border: 3px solid rgb(255, 0, 0);*/
+  margin: 20px 30px;
 }
 
 footer ul li {
+  margin-top: 15px;
   margin-bottom: 15px;
   list-style: none;
 }
 
 footer ul li a {
   list-style: none;
-  color: white;
+  color: black;
 }
 /*Formulaire fin */
 
