@@ -111,8 +111,8 @@ header nav ul li a:hover {
     padding-left: 10px;
   }
   form textarea {
-    padding-left: 10px;
     margin-left: 10px;
+    margin-right: 10px;
   }
 }
 /*Formulaire fin*/
@@ -120,12 +120,23 @@ header nav ul li a:hover {
 footer ul {
   display: flex;
   justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  height: 30px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  /*border: 3px solid rgb(255, 0, 0);*/
+  margin: 20px 30px;
+}
+
+footer ul li {
+  margin-top: 15px;
   margin-bottom: 15px;
 }
 
 footer ul li a {
   list-style: none;
-  color: white;
+  color: black;
 }
 /*Formulaire fin */
 
@@ -286,7 +297,7 @@ a:hover .poster-img {
 .overlay {
   position: fixed;
   width: 430px;
-  height: 730px;
+  height: 735px;
   margin-left: 165px;
   margin-right: 165px;
 }
@@ -302,10 +313,10 @@ a:hover .poster-img {
   position: relative;
   background-color: rgb(255, 255, 255);
   width: 760px;
-  height: 750px;
+  height: 755px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10px;
+  margin-top: 5px;
   margin-bottom: 15px;
   border: solid rgba(0, 0, 0, 0.664) 1px;
   border-radius: 4px;
@@ -324,3 +335,14 @@ a:hover .poster-img {
 
 
 
+  @media only screen (max-width 900px){
+    .ban{
+d    isplay: inline ;
+
+    }
+  
+
+
+
+  }
+  

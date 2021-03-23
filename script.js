@@ -13,4 +13,13 @@ function closePopup(){
     popup.style.display = "none";
 }
 
-/*function(event){event.preventDefault();alert('votre reservation a bien était pris en compte')*/
+    function bbb(event){
+        console.log("hello")
+        event.preventDefault();alert('votre reservation a bien était pris en compte')
+
+    }
+   
+
+
+
+
