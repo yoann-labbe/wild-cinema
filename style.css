@@ -7,6 +7,7 @@ body {
   background-image: url(assets/salle.png);
   background-size: cover;
   background-position: center center;
+  background-attachment: fixed;
 }
 
 .fond-blanc {
@@ -323,3 +324,37 @@ a:hover .poster-img {
 }
 
 /*essai*/
+
+/* RESPONSIVE
+
+/* Smartphones (portrait et paysage) -------*/
+@media only screen and (max-width: 480px) {
+  /* --------all---------*/
+  .fond-blanc {
+    margin: 20px 15px;
+    padding: 8px 0;
+  }
+
+  /* --------index.html---------*/
+
+  /*---------affiche.html-------*/
+  .poster-img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .posters-container h3 {
+    font-size: 25px;
+  }
+
+  .poster-title {
+    font-size: 20px;
+  }
+
+  .poster-description {
+    font-size: 15px;
+  }
+  /*--------reserve.html---------*/
+
+  /*---------Contact.html---------*/
+}
