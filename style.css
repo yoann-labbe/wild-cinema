@@ -67,7 +67,7 @@ header nav ul li a:hover {
 /*Formulaire*/
 .social {
   display: flex;
-  justify-content: ;
+  justify-content: "";
 }
 
 .social img {
@@ -151,10 +151,6 @@ footer ul li a {
 /*Formulaire fin */
 
 /*PROCHAINEMENT PAGE ACCUEIL--------------------------------------*/
-
-#next {
-}
-
 #next h1 {
   width: 100%;
   margin: 60px auto;
@@ -213,7 +209,7 @@ footer ul li a {
 }
 
 a:hover .poster-img {
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 .poster-body {
