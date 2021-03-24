@@ -64,6 +64,16 @@ header nav ul li a:hover {
 }
 
 /*Formulaire*/
+.social {
+  display: flex;
+  justify-content: ;
+}
+
+.social img {
+  display: flex;
+  height: 50px;
+  width: 50px;
+}
 
 .debut {
   display: flex;
