@@ -422,6 +422,14 @@ a:hover .poster-img {
     width: auto;
   }
   footer {
-    flex-direction: column;
+    display: block;
+    height: auto;
+    width: 70%;
+    margin: 10px auto;
+    text-align: center;
+  }
+  footer ul {
+    display: block;
+    height: auto;
   }
 }
