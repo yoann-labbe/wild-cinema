@@ -7,11 +7,7 @@ body {
   background-image: url(assets/salle.png);
   background-size: cover;
   background-position: center center;
-<<<<<<< HEAD
- 
-=======
   background-attachment: fixed;
->>>>>>> 26633483fc90a67de0dcef62e69abaef348cb8a3
 }
 
 .fond-blanc {
@@ -155,13 +151,10 @@ footer ul li a {
 /*Formulaire fin */
 
 /*PROCHAINEMENT PAGE ACCUEIL--------------------------------------*/
-<<<<<<< HEAD
 
 #next {
 
 }
-=======
->>>>>>> 26633483fc90a67de0dcef62e69abaef348cb8a3
 #next h1 {
   width: 100%;
   margin: 60px auto;
@@ -350,17 +343,6 @@ a:hover .poster-img {
   cursor: pointer;
 }
 
-<<<<<<< HEAD
-@media only screen and (max-width: 1000px){
-#my-page{
-  display: block;
-  margin : auto;
-}
-}
-
-  
-
-=======
 /*essai*/
 
 /* RESPONSIVE
@@ -396,4 +378,3 @@ a:hover .poster-img {
 
   /*---------Contact.html---------*/
 }
->>>>>>> 26633483fc90a67de0dcef62e69abaef348cb8a3
