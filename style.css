@@ -7,11 +7,7 @@ body {
   background-image: url(assets/salle.png);
   background-size: cover;
   background-position: center center;
-<<<<<<< HEAD
- 
-=======
   background-attachment: fixed;
->>>>>>> 26633483fc90a67de0dcef62e69abaef348cb8a3
 }
 
 .fond-blanc {
@@ -51,6 +47,7 @@ header nav {
 header nav ul {
   height: inherit;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
 }
@@ -62,7 +59,7 @@ header nav ul li {
 header nav ul li a {
   text-decoration: none;
   color: black;
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
 }
 
 header nav ul li a:hover {
@@ -72,7 +69,7 @@ header nav ul li a:hover {
 /*Formulaire*/
 .social {
   display: flex;
-  justify-content: "";
+  justify-content: space-around;
 }
 
 .social img {
@@ -80,7 +77,7 @@ header nav ul li a:hover {
   height: 50px;
   width: 50px;
 }
-
+/*------------------------MEDIAQUERIES @media screen and (min-width: 350px)-------------------------------------*/
 @media screen and (min-width: 350px) {
   .debut {
     display: flex;
@@ -93,15 +90,18 @@ header nav ul li a:hover {
   .map {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
   }
 
   #plan {
     height: 300px;
     width: 400px;
+    margin: 10px;
   }
 
   .info {
-    margin: 50px;
+    margin: 40px;
+    width: 400px;
   }
 
   .milieu {
@@ -129,6 +129,7 @@ header nav ul li a:hover {
     margin-right: 10px;
   }
 }
+/*--------------------------------------FIN MEDIAQUERIES @media screen and (min-width: 350px)-----------------------------------------------------
 /*Formulaire fin*/
 
 footer ul {
@@ -146,6 +147,7 @@ footer ul {
 footer ul li {
   margin-top: 15px;
   margin-bottom: 15px;
+  list-style: none;
 }
 
 footer ul li a {
@@ -155,13 +157,11 @@ footer ul li a {
 /*Formulaire fin */
 
 /*PROCHAINEMENT PAGE ACCUEIL--------------------------------------*/
-<<<<<<< HEAD
 
-#next {
-
+#next #nextFilms {
+  display: flex;
+  flex-wrap: wrap;
 }
-=======
->>>>>>> 26633483fc90a67de0dcef62e69abaef348cb8a3
 #next h1 {
   width: 100%;
   margin: 60px auto;
@@ -180,7 +180,7 @@ footer ul li a {
 }
 
 #next ul li img {
-  width: 400px;
+  width: 100%;
 }
 
 /*PAGE A L AFFICHE--------------------------------------*/
@@ -252,6 +252,7 @@ a:hover .poster-img {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .blk2 {
@@ -315,8 +316,8 @@ a:hover .poster-img {
   position: fixed;
   width: 430px;
   height: 735px;
-  margin-left: 165px;
-  margin-right: 165px;
+  margin-left: 135px;
+  margin-right: 135px;
 }
 
 #popupParent {
@@ -328,8 +329,8 @@ a:hover .poster-img {
 
 #popup {
   position: relative;
-  background-color: rgb(255, 255, 255);
-  width: 760px;
+  background-color: rgba(255, 255, 255, 0.836);
+  width: 700px;
   height: 755px;
   margin-left: auto;
   margin-right: auto;
@@ -337,6 +338,7 @@ a:hover .poster-img {
   margin-bottom: 15px;
   border: solid rgba(0, 0, 0, 0.664) 1px;
   border-radius: 4px;
+  
 }
 
 #btnclose {
@@ -350,17 +352,6 @@ a:hover .poster-img {
   cursor: pointer;
 }
 
-<<<<<<< HEAD
-@media only screen and (max-width: 1000px){
-#my-page{
-  display: block;
-  margin : auto;
-}
-}
-
-  
-
-=======
 /*essai*/
 
 /* RESPONSIVE
@@ -368,6 +359,83 @@ a:hover .poster-img {
 /* Smartphones (portrait et paysage) -------*/
 @media only screen and (max-width: 480px) {
   /* --------all---------*/
+  .fond-blanc {
+    margin: 20px 15px;
+    padding: 8px 0;
+  }
+
+  /* --------index.html---------*/
+  header {
+    display: block;
+    height: auto;
+    width: 30%;
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  header nav ul {
+    display: block;
+  }
+
+  header nav ul li {
+  }
+
+  #next h1 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  /*---------affiche.html-------*/
+  .poster-img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .posters-container h3 {
+    font-size: 25px;
+  }
+
+  .poster-title {
+    font-size: 20px;
+  }
+
+  .poster-description {
+    font-size: 15px;
+  }
+  /*--------reserve.html---------*/
+.pop{
+  display: none;
+}
+#popupParent{
+display: none;
+
+}
+  /*---------Contact.html---------*/
+  .debut {
+    font-size: 30px;
+    text-align: center;
+  }
+  .map {
+    flex-direction: column;
+  }
+  #plan {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .milieu {
+    text-align: center;
+  }
+  form {
+    text-align: center;
+    width: auto;
+  }
+  footer {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 568px){
   .fond-blanc {
     margin: 20px 15px;
     padding: 8px 0;
@@ -393,7 +461,46 @@ a:hover .poster-img {
     font-size: 15px;
   }
   /*--------reserve.html---------*/
-
-  /*---------Contact.html---------*/
+.pop{
+  display: none;
 }
->>>>>>> 26633483fc90a67de0dcef62e69abaef348cb8a3
+#popupParent{
+display: none;
+}
+#blk1{
+  height: 100%;
+    width: 100%;
+}
+  /*---------Contact.html---------*/
+  .debut {
+    font-size: 30px;
+    text-align: center;
+  }
+  .map {
+    flex-direction: column;
+  }
+  #plan {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .milieu {
+    text-align: center;
+  }
+  form {
+    text-align: center;
+    width: auto;
+  }
+  footer {
+    display: block;
+    height: auto;
+    width: 70%;
+    margin: 10px auto;
+    text-align: center;
+  }
+  footer ul {
+    display: block;
+    height: auto;
+  }
+}
