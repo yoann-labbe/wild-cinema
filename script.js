@@ -12,3 +12,14 @@ btnClose.addEventListener('click',closePopup);
 function closePopup(){
     popup.style.display = "none";
 }
+
+    function bbb(event){
+        console.log("hello")
+        event.preventDefault();alert('votre reservation a bien était pris en compte')
+
+    }
+   
+
+
+
+
