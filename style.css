@@ -90,6 +90,7 @@ header nav ul li a:hover {
   .map {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
   }
 
   #plan {
@@ -100,6 +101,7 @@ header nav ul li a:hover {
 
   .info {
     margin: 40px;
+    width: 400px;
   }
 
   .milieu {
