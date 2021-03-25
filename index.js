@@ -22,7 +22,7 @@ const films = {
         {
             name: "BACK TO THE MAIN BRANCH",
             picture: "assets/lefilm4.png",
-            description: "«Un groupe d'étudiant en plein projet technique se retrouve piégé par le temps dans une branche dev pleine de commits approximatifs. Vont ils rendre leurs projets sur la main branche à temps ?»"
+            description: "«Un groupe d'étudiant en plein projet technique se retrouve piégé par le temps dans une branche dev pleine de commits approximatifs. Vont ils rendre leurs projets sur la main branch à temps ?»"
         },
         {
             name: "JAVASCRIPT PARK",
