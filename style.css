@@ -77,59 +77,56 @@ header nav ul li a:hover {
   height: 50px;
   width: 50px;
 }
-/*------------------------MEDIAQUERIES @media screen and (min-width: 350px)-------------------------------------*/
-@media screen and (min-width: 350px) {
-  .debut {
-    display: flex;
-    justify-content: center;
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-      "Lucida Sans", Arial, sans-serif;
-    font-size: 50px;
-  }
 
-  .map {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-  }
-
-  #plan {
-    height: 300px;
-    width: 400px;
-    margin: 10px;
-  }
-
-  .info {
-    margin: 40px;
-    width: 400px;
-  }
-
-  .milieu {
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-      "Lucida Sans", Arial, sans-serif;
-    margin: 20px;
-  }
-
-  form {
-    display: flex;
-    flex-direction: column;
-    width: 30em;
-    margin: 30px auto;
-  }
-
-  form input {
-    margin: 10px;
-  }
-
-  form label {
-    padding-left: 10px;
-  }
-  form textarea {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
+.debut {
+  display: flex;
+  justify-content: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 50px;
 }
-/*--------------------------------------FIN MEDIAQUERIES @media screen and (min-width: 350px)-----------------------------------------------------
+
+.map {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#plan {
+  height: 300px;
+  width: 400px;
+  margin: 10px;
+}
+
+.info {
+  margin: 40px;
+  width: 400px;
+}
+
+.milieu {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 30em;
+  margin: 30px auto;
+}
+
+form input {
+  margin: 10px;
+}
+
+form label {
+  padding-left: 10px;
+}
+form textarea {
+  margin-left: 10px;
+  margin-right: 10px;
+}
 /*Formulaire fin*/
 
 footer ul {
@@ -409,12 +406,14 @@ a:hover .poster-img {
   }
   .map {
     flex-direction: column;
+    text-align: center;
   }
   #plan {
     max-width: 100%;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-position: center;
   }
   .milieu {
     text-align: center;
