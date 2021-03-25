@@ -58,7 +58,7 @@ header nav ul li {
 header nav ul li a {
   text-decoration: none;
   color: black;
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
 }
 
 header nav ul li a:hover {
@@ -68,7 +68,7 @@ header nav ul li a:hover {
 /*Formulaire*/
 .social {
   display: flex;
-  justify-content: "";
+  justify-content: space-around;
 }
 
 .social img {
@@ -94,10 +94,11 @@ header nav ul li a:hover {
   #plan {
     height: 300px;
     width: 400px;
+    margin: 10px;
   }
 
   .info {
-    margin: 50px;
+    margin: 40px;
   }
 
   .milieu {
@@ -142,6 +143,7 @@ footer ul {
 footer ul li {
   margin-top: 15px;
   margin-bottom: 15px;
+  list-style: none;
 }
 
 footer ul li a {
@@ -153,7 +155,6 @@ footer ul li a {
 /*PROCHAINEMENT PAGE ACCUEIL--------------------------------------*/
 
 #next {
-
 }
 #next h1 {
   width: 100%;
@@ -377,4 +378,27 @@ a:hover .poster-img {
   /*--------reserve.html---------*/
 
   /*---------Contact.html---------*/
+  .debut {
+    font-size: 30px;
+    text-align: center;
+  }
+  .map {
+    flex-direction: column;
+  }
+  #plan {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .milieu {
+    text-align: center;
+  }
+  form {
+    text-align: center;
+    width: auto;
+  }
+  footer {
+    flex-direction: column;
+  }
 }
