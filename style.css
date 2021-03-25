@@ -94,10 +94,11 @@ header nav ul li a:hover {
   #plan {
     height: 300px;
     width: 400px;
+    margin: 10px;
   }
 
   .info {
-    margin: 50px;
+    margin: 40px;
   }
 
   .milieu {
@@ -142,6 +143,7 @@ footer ul {
 footer ul li {
   margin-top: 15px;
   margin-bottom: 15px;
+  list-style: none;
 }
 
 footer ul li a {
