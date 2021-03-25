@@ -27,9 +27,9 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 60px;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgb(255, 255, 255);
   border-radius: 10px;
-  border: 5px solid rgba(255, 0, 0, 0.7);
+  border: 5px solid rgb(255, 0, 0);
   margin: 20px 30px;
 }
 
@@ -333,16 +333,12 @@ a:hover .poster-img {
   cursor: pointer;
 }
 
+@media only screen and (max-width: 1000px){
+#my-page{
+  display: block;
+  margin : auto;
+}
+}
 
-
-  @media only screen (max-width 900px){
-    .ban{
-d    isplay: inline ;
-
-    }
   
 
-
-
-  }
-  
