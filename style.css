@@ -361,13 +361,24 @@ a:hover .poster-img {
   }
 
   /* --------index.html---------*/
+  header {
+    display: block;
+    height: auto;
+    width: 30%;
+    margin: 10px auto;
+    text-align: center;
+  }
+
   header nav ul {
-    flex-direction: column;
+    display: block;
+  }
+
+  header nav ul li {
   }
 
   #next h1 {
     font-size: 18px;
-    font-weight: bolder;
+    font-weight: bold;
   }
 
   /*---------affiche.html-------*/
