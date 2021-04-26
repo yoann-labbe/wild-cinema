@@ -1,31 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NOUS CONTACTER</title>
-</head>
-<h1>NOUS CONTACTER</h1>
 
-<h2>Adresse</h2>
-<p>Wild Cinéma<br> 
- 9 Allée Serr <br>
- 33100 BORDEAUX<br>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">  
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+	<title>Wild Cinéma accueil</title>
 
- Tel : 06 09 02 07 09<br>
- Accès tramway ligne A, arrêt Stalingrad<br>
- Bus lignes 10 / 16 / 27 / 28 / 45 /80 / 91 / 92 arrêt Stalingrad<br>
- Batcub Pont de Pierre<br>
- Stations Vcub à proximité<br>
- Stations BlueCub à proximité<br>
-</p>
-
-<p>Map image ou nous trouver</p>
-
-<h2>Formulaire</h2>
-
-<body>
+  </head>
+  <body id="my-page">
+  	<header>
+  		<div id="logo">
+			  <a href="index.html"><img src="assets/logo.jpg" /></a>
+  		</div>
+  		<nav>
+  			<ul>
+  				<li><a href="index.html">Accueil</a></li>
+  				<li><a href="affiche.html">Films à l'affiche</a></li>
+  				<li><a href="reserve.html">Réservez</a></li>
+  				<li><a href="Contact.html">Contact</a></li>
+  			</ul>
+  		</nav>
+  	</header>
+    <div class="fond-blanc">
     
+      <h1 class="debut">NOUS CONTACTER</h1>
+    
+      <h2 class="milieu">Adresse</h2>
+    <div class="map">
+      <div class="info">Wild Cinéma<br> 
+      9 Allée Serr <br>
+      33100 BORDEAUX<br>
+    
+      Tel : 06 09 02 07 09<br>
+      Accès tramway ligne A, arrêt Stalingrad<br>
+      Bus lignes 10 / 16 / 27 / 28 / 45 /80 / 91 / 92 arrêt Stalingrad<br>
+      Batcub Pont de Pierre<br>
+      Stations Vcub à proximité<br>
+      Stations BlueCub à proximité<br>
+      </div>
+    
+    
+      <img id="plan" src="assets/plan.png" />
+    </div>
+    
+    <h2 class="milieu">Formulaire</h2>  
+    <form>
+        <label id="name">Nom</label>
+        <input type="nom" placeholder="Nom">
+        <label id="phone">Téléphone</label>
+        <input type="telephone" placeholder="Numéro de téléphone">
+        <label id="email">Mail</label>
+        <input type="mail" placeholder="prenom.nom@xxx.com">
+        <label id="message">Message</label>
+        <textarea type="mess" placeholder="Ecrivez votre message ici"></textarea>
+        <input type="submit" id="envoyer" value="Envoyer"  onclick="alert('votre message à bien été envoyé')"></input>
+
+    </form>
+    </div>
+    <footer class="footer"> 
+      <div class="social">
+        <a href= "https://fr-fr.facebook.com/MegaramaBordeauxBastide/" target="_blank"><img id="facebook" src="assets/logofacebook.png"/></a>
+        <a href= "https://www.instagram.com/megarama_bordeaux_officiel/?hl=fr" target="_blank"><img id="insta" src="assets/logoinstagram.png"/></a>
+        <a href= "https://twitter.com/MegaramaBdx" target="_blank"><img id="twitter" src="assets/logotwitter.png"/></a>
+      </div>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="#">Evènements</a></li>
+            <li><a href="affiche.html">Films à l'affiche</a></li>
+            <li><a href="reserve.html">Réservez</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </footer>
 </body>
 </html>
